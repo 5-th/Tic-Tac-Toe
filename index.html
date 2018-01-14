@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-		<meta http-equiv="Content-Type" charset=utf-8">
-		<meta name="description" content="Tic-Tac-Toe Classic game">
-		<meta name="author" content="andrew.fivebro">
+	<meta http-equiv="Content-Type" charset=utf-8">
+	<meta name="description" content="Tic-Tac-Toe Classic game">
+	<meta name="author" content="andrew.fivebro">
     
     	<title> TIC TAC TOE </title>
 
-   		<link rel="stylesheet" href="style.css">
+   	<link rel="stylesheet" href="style.css">
     	<script src = "main.js"></script>    
     
     </head>
@@ -15,33 +15,33 @@
     <body background="sports.png">
     	<center><img src='logo.png' id='logo'> </img></center>
     	<div id='table'> <!-- main field with cells -->
-			<div class='field' id='0'>&nbsp</div>
-			<div class='field' id='1'>&nbsp</div>
-			<div class='field' id='2'>&nbsp</div>
-			<div class='field' id='3'>&nbsp</div>
-			<div class='field' id='4'>&nbsp</div>
-			<div class='field' id='5'>&nbsp</div>
-			<div class='field' id='6'>&nbsp</div>
-			<div class='field' id='7'>&nbsp</div>
-			<div class='field' id='8'>&nbsp</div>
-		</div> 
-		<div id='table'>	<!-- score field -->
-			<div class='scores' id='player_score'> </div>
-			<div class='scores' id='computer_score'> </div>
-		</div>
+		<div class='field' id='0'>&nbsp</div>
+		<div class='field' id='1'>&nbsp</div>
+		<div class='field' id='2'>&nbsp</div>
+		<div class='field' id='3'>&nbsp</div>
+		<div class='field' id='4'>&nbsp</div>
+		<div class='field' id='5'>&nbsp</div>
+		<div class='field' id='6'>&nbsp</div>
+		<div class='field' id='7'>&nbsp</div>
+		<div class='field' id='8'>&nbsp</div>
+	</div> 
+	<div id='table'>	<!-- score field -->
+		<div class='scores' id='player_score'> </div>
+		<div class='scores' id='computer_score'> </div>
+	</div>
 
-		<div id="win" style="display:none;"> <!-- alert window -->
-   			<div class="overlay"></div>
-      			<div class="visible">
-        			<center> <img src='logo.png' id='logo-small'> </img> </center>
-          		<div class="content">
+	<div id="win" style="display:none;"> <!-- alert window -->
+   	    <div class="overlay"></div>
+      		<div class="visible">
+        		<center> <img src='logo.png' id='logo-small'> </img> </center>
+        	<div class="content">
             		<p id='content'> You Win !!! </p>
-          		</div>
-    			<button type = "submit" class = "button restart" onClick="restart();"> 
-            		<span> RESTART </span> </button>
-    			<button type = "submit" class = "button exit" onClick="gameOver()"> 
-            		<span> EXIT </span> </button>
-    		</div>
-		</div>
+          	</div>
+    		<button type = "submit" class = "button restart" onClick="restart();"> 
+            	   <span> RESTART </span> </button>
+    		<button type = "submit" class = "button exit" onClick="gameOver()"> 
+            	   <span> EXIT </span> </button>
+    	    </div>
+	</div>
     </body>
 </html>
