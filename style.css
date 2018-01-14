@@ -1,0 +1,129 @@
+	
+	#logo {
+	    height: 18%;
+    	width: 18%;
+	}
+
+	#logo-small {
+	    height: 60%;
+    	width: 60%;
+	}
+
+    #table {
+		width: 405px;
+		padding: 1px;
+		padding-bottom: 2px;
+		border: 1px solid #E1ECF9;
+		font-size: 0;
+		margin: 0 auto;
+		position: relative;
+		background: #ffffff;
+	}
+		
+	.field {
+		width: 131px;
+		height: 131px;
+		display: inline-block;
+		cursor: pointer;
+		border: 1px solid #ffffff;
+		margin: 1px;
+		text-align: center;
+		font: 65px/2 Arial, Helvetica, sans-serif;
+		background: #609CE1;
+		color: #ffffff;
+		transition: background .2s,
+		color .2s;
+		-webkit-user-select: none;
+	}
+	
+	.field:hover {
+		background: #7eafe7;
+		color: #ffffff;
+	}
+	
+	.scores {
+		width: 200px;
+		height: 25px;
+		text-align: center;
+		position: relative;
+		display: inline-block;
+		padding-left: 0%;
+		padding-right: 0%;
+		color: #609CE1;
+		border: 0px solid #E1ECF9;
+		font: bold 16px/1.7 Arial, Helvetica, sans-serif;
+		-webkit-user-select: none;
+	}
+	
+	.button {
+    	width: 130px;
+    	background-color: #4CAF50; 
+        border: none;
+        padding: 5px 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 7px 7px;
+        font-size: 13px;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    .restart {
+        background-color: #46a049; 
+        color: #dcefdc; 
+    }
+
+    .restart:hover {
+        background-color: #5fb962;
+        color: white;
+        border: 0px solid #4CAF50;
+    }
+
+    .exit {
+        background-color: #f21c0d; 
+        color: #fcd2cf;
+        float: right;
+    }
+
+    .exit:hover {
+        background-color: #f44336;
+        color: white;
+        border: 0px solid #f44336;
+    }
+
+	.overlay {
+		background: #000;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 1000;
+		opacity: 0.75;
+	}
+
+	.visible {
+		position: fixed;
+		width: 450px;
+		padding: 0px;
+		background: white;
+		left: 50%;
+		top: 50%;
+		margin-top: -250px;
+		margin-left: -225px;
+		overflow: hidden;
+		z-index: 2000;
+	}
+
+	.content {
+		padding: 0 0px;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		background: WhiteSmoke;
+		text-align: center;
+		color: #4CAF50;
+		font: 25px Arial, Helvetica, sans-serif;
+		-webkit-user-select: none;
+	}    
